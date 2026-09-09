@@ -1,0 +1,55 @@
+.simbolo{
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    
+}
+
+.cabecalho-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho-nav-link{
+    padding: 1rem;
+    color: gray;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho-carrossel{
+    height: 35rem;
+    background-image: url(apple.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.cabecalho-carrossel-titulo{
+   font-size: 3.5rem;
+    color: white;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho-carrossel-link{
+    color: black;
+    background-color: white;
+    padding: 0.8rem;
+    text-decoration: none;
+    border-radius: 3rem;
+    margin-bottom: 3rem;
+     font-family: Arial, Helvetica, sans-serif;
+}
